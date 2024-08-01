@@ -48,6 +48,7 @@ export default function RootLayout({ children }) {
         <link rel='icon' href={metadata.icons.icon} />
         <meta name='robots' content='index, follow, noarchive' />
         <meta name='googlebot' content='index, follow' />
+        <link rel='preload' href='/public/img-background1.webp' as='image' />
       </Head>
       <body>{children}</body>
     </html>
