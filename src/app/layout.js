@@ -54,7 +54,13 @@ export default function RootLayout({ children }) {
         />
         <link rel='preload' href='/public/img-background1.webp' as='image' />
       </Head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <meta
+          name='google-site-verification'
+          content='qk7QspXC6WF6FFF9ozk08ujICnmBfcEzngG4hCd4qRY'
+        />
+      </body>
     </html>
   )
 }
