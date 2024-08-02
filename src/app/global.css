@@ -1,6 +1,6 @@
 /**** ESTILOS PARA LA PAGINA CONSTRUCCION ****/
 .fondo-home {
-  background-image: url('../../public/img-background1.webp');
+  background-image: url('../../public/img-background.webp');
   background-size: cover;
   background-position: center calc(45% - 10px);
   height: 100vh;
