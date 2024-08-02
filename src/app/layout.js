@@ -8,7 +8,7 @@ export const metadata = {
   description: 'Empresa JL Distribuciones',
   keywords: ['JL distribuciones'],
   icons: {
-    icon: '/public/JL.webp',
+    icon: '/JL-icon.webp',
   },
 
   robots: {
@@ -28,7 +28,7 @@ export const metadata = {
     url: 'https://jldistribuciones.com.ar/',
     images: [
       {
-        url: 'https://jldistribuciones.com.ar/JL.webp',
+        url: 'https://jldistribuciones.com/JL.webp',
         width: 800,
         height: 600,
         alt: 'Logo de JL Distribuciones',
