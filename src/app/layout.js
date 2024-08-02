@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
         <meta name='googlebot' content='index, follow' />
         <meta
           name='google-site-verification'
-          content='BeXvKZtQuvr_qo-GhNMinOa4qCTryELEMmTfLWZa7rY'
+          content='qk7QspXC6WF6FFF9ozk08ujICnmBfcEzngG4hCd4qRY'
         />
         <link rel='preload' href='/public/img-background1.webp' as='image' />
       </Head>
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         {children}
         <meta
           name='google-site-verification'
-          content='BeXvKZtQuvr_qo-GhNMinOa4qCTryELEMmTfLWZa7rY'
+          content='qk7QspXC6WF6FFF9ozk08ujICnmBfcEzngG4hCd4qRY'
         />
       </body>
     </html>
