@@ -4,4 +4,4 @@ Allow: /
 
 
 # Sitemaps
-Sitemap: https://jldistribuciones.com.ar/sitemap.xml
+Sitemap: https://jldistribuciones.com/sitemap.xml
