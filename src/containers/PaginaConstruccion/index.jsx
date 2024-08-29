@@ -8,7 +8,7 @@ import Image from 'next/image'
 const PaginaConstruccionContainer = ({ titulo }) => {
   return (
     <Container fluid className='fondo-home'>
-      <Row className='h-100 d-flex align-items-center'>
+      {/* <Row className='h-100 d-flex align-items-center'>
         <Col xs={12} className='text-center p-container'>
           <div>
             <Image
@@ -37,18 +37,7 @@ const PaginaConstruccionContainer = ({ titulo }) => {
             </h5>
           </div>
         </Col>
-        {/* <Col xs={12} className='text-center align-items-center'>
-          <div className='mb-5'>
-            <h2>Página en proceso</h2>
-          </div>
-          <div className=''>
-            <Spin size='large' fullscreen />
-          </div>
-          <div>
-            <h5>¡El sitio estará listo pronto! ¡Trabajamos para brindarte la mejor experiencia!</h5>
-          </div>
-        </Col> */}
-      </Row>
+      </Row> */}
     </Container>
   )
 }
