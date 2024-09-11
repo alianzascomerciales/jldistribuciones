@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Backdrop = () => {
   return (
     <Row className='px-0 py-0 justify-content-between img-bg-home'>
-      <Col xs={12} md={7} lg={6} className='bg-col-1 cont-size px-5'>
+      <Col xs={12} md={7} lg={6} className='bg-col-1 cont-size px-5 pb-5'>
         <Row className='pt-5'>
           <Col xs={12}>
             <div className='img-logo-backdrop text-center mt-5'>
@@ -46,7 +46,7 @@ const Backdrop = () => {
             </div>
           </Col>
           <Col xs={12}>
-            <div className='cont-btn text-center pt-4'>
+            <div className='cont-btn text-center py-5'>
               <Link
                 href='/contacto'
                 className={`${fontBebasNeue.className} btn-backdrop py-2 px-3 me-4`}

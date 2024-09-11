@@ -17,7 +17,7 @@ const NavbarComponent = () => {
 
   return (
     <Navbar expand='lg' expanded={expandir} className='cont-navbar'>
-      <Container fluiud className='py-2 px-0 justify-content-end'>
+      <Container fluid className='py-2 px-0 justify-content-end'>
         <button
           className='navbar-toggler bg-white'
           type='button'

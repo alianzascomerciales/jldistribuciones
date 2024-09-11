@@ -9,6 +9,7 @@ const HomePage = () => {
   return (
     <div>
       <Home />
+      <div className='py-5'></div>
     </div>
     // <PaginaConstruccionContainer titulo='Proximamente' />
   )

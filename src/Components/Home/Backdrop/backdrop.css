@@ -1,5 +1,5 @@
 .img-bg-home {
-  background-image: url('../../../../public/img-backdrop.webp');
+  background-image: url('../../../../public/img-backdrop-min.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 50%;
@@ -39,9 +39,9 @@
 }
 .btn-backdrop:hover {
   background-color: transparent !important;
-  color: black !important;
-  border: 3px double #ad6607 !important;
+  border: 2px solid white;
   font-weight: 700;
+  border-image: linear-gradient(to right, #ffffff, #ffffff2c, #ffffff) 1;
 }
 
 @media (max-width: 1220px) {
@@ -76,7 +76,7 @@
   .bg-col-1 {
     background-color: #0a0b31;
     opacity: 0.7;
-    padding: 0px 5px 0px 5px !important;
+    padding: 0px 0px 0px 0px !important;
   }
   .img-logo-backdrop img {
     width: 287px;
