@@ -1,5 +1,7 @@
+import NavbarComponent from '@/Components/Navbar'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import './global.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -52,9 +54,10 @@ export default function RootLayout({ children }) {
           name='google-site-verification'
           content='qk7QspXC6WF6FFF9ozk08ujICnmBfcEzngG4hCd4qRY'
         />
-        <link rel='preload' href='/public/img-background1.webp' as='image' />
+        <link rel='preload' href='/public/img-backdrop.webp' as='image' />
       </Head>
       <body>
+        {/* <NavbarComponent /> */}
         {children}
         <meta
           name='google-site-verification'

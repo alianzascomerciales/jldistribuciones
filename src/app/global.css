@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'ChamberyRegular';
+  src: url('/public/fonts/chamberidisplayregular.otf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ArialNarrow';
+  src: url('/public/fonts/arialnarrow.ttf') format('ttf');
+  font-display: swap;
+}
+.f-arialN {
+  font-family: 'ArialNarrow', sans-serif;
+}
+.f-chamberyR {
+  font-family: 'ChamberyRegular', sans-serif;
+}
+
+.fondo-notfound {
+  height: 100vh;
+  background-image: url('../../public/img-backdrop-min.webp');
+  background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+}
+
 /**** ESTILOS PARA LA PAGINA CONSTRUCCION ****/
 .fondo-home {
   background-image: url('../../public/jl-07-07-07.webp');
@@ -28,27 +53,6 @@
 }
 
 /**************/
-
-.fondo-notfound {
-  margin-top: 81.99px;
-  background-color: #ddce00;
-  height: 60vh;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-.btn-link {
-  background-color: transparent;
-  border: 3px double gray;
-  border-radius: 20px;
-  font-size: 17px;
-}
-.btn-link:hover {
-  background-color: transparent !important;
-  color: black !important;
-  border: 3px double #ad6607 !important;
-  font-weight: 700;
-}
 
 @media (max-width: 768px) {
   .fondo-home {
