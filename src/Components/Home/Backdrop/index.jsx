@@ -17,7 +17,7 @@ const Backdrop = () => {
                 height={233}
                 quality={100} // Ajusta la calidad según sea necesario
                 sizes='(max-width: 576px) 100vw, 50vw'
-                src='/logo-backdrop.webp'
+                src='/logo-backdrop-min.webp'
                 srcSet='/logo-backdrop-min.webp 600w, /logo-backdrop.webp 1000w'
                 alt='JL Distribuciones'
               />
