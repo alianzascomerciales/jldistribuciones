@@ -1,0 +1,12 @@
+.cont-contacto {
+  margin-top: 16px;
+}
+.img-backdrop-contacto {
+  position: relative;
+  width: 100%;
+  height: 400px !important;
+}
+.col-info {
+  border: 1px solid white;
+  border-radius: 5px;
+}

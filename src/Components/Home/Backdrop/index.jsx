@@ -1,9 +1,12 @@
+'use client'
+
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { fontBebasNeue } from '../../../../fonts/fonts'
 import './backdrop.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import CarouselBackdrop from './carousel'
 
 const Backdrop = () => {
   return (
@@ -17,7 +20,7 @@ const Backdrop = () => {
                 height={233}
                 quality={100} // Ajusta la calidad según sea necesario
                 sizes='(max-width: 576px) 100vw, 50vw'
-                src='/logo-backdrop-min.webp'
+                src='/logo-backdrop.webp'
                 srcSet='/logo-backdrop-min.webp 600w, /logo-backdrop.webp 1000w'
                 alt='JL Distribuciones'
               />
@@ -54,6 +57,9 @@ const Backdrop = () => {
                 CONTÁCTENOS
               </Link>
             </div>
+          </Col>
+          <Col xs={12}>
+            <CarouselBackdrop />
           </Col>
         </Row>
       </Col>

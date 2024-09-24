@@ -22,6 +22,15 @@
   background-position: center 50%;
   background-repeat: no-repeat;
 }
+.barra1 {
+  width: 100%;
+  height: 16px !important;
+}
+.barra2 {
+  position: relative !important;
+  width: 100%;
+  height: 20px !important;
+}
 
 /**** ESTILOS PARA LA PAGINA CONSTRUCCION ****/
 .fondo-home {

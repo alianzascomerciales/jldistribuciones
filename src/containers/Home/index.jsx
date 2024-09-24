@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 
 const Home = () => {
   return (
-    <Container fluid className='fondo-backdrop'>
+    <Container fluid>
       <NavbarComponent />
       <Backdrop />
     </Container>

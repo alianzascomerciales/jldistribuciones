@@ -3,11 +3,11 @@ import '../global.css'
 import '../../../styles/scrollbar.css'
 import ContactoContainer from '@/containers/Contacto'
 
-const Contacto = () => {
+const Nosotros = () => {
   return (
     <div>
       <ContactoContainer />
     </div>
   )
 }
-export default Contacto
+export default Nosotros
